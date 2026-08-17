@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alireza izadi — Architecture Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <a href="#top" class="logo">alireza izadi</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <a href="#work" class="nav-link">Work</a>
+      <a href="#studio" class="nav-link">Studio</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <p class="eyebrow">Architect — Mashhad, Iran</p>
+      <h1 class="hero-title">Space<br><em>as</em><br>Language</h1>
+      <p class="hero-text">Architecture that listens before it speaks. Every project is an act of translation — between
+        light, material, and human presence.</p>
+      <a href="#work" class="view-work">View Work <span class="arrow">↗️</span></a>
+
+      <figure class="hero-image lightbox-item">
+        <img src="./assets/IMG_20260816_143921_278.jpg" alt="House of Light, 2023" data-caption="House of Light, 2023">
+        <figcaption>↑ House of Light, 2023</figcaption>
+      </figure>
+    </section>
+
+    <!-- ===== SELECTED WORK ===== -->
+    <section class="work-section" id="work">
+      <div class="section-head">
+        <p class="eyebrow">Selected Work</p>
+        <p class="section-range">2020 – 2024</p>
+      </div>
+
+      <div class="project-list">
+
+        <!-- Project 01 -->
+        <article class="project" data-project="01">
+          <div class="project-slider" data-slider>
+            <div class="slider-track">
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144035_390.jpg"
+                  alt="House of Shadows — image 1" data-caption="House of Shadows, 2023"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144035_467.jpg"
+                  alt="House of Shadows — image 2" data-caption="House of Shadows, 2023"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144035_745.jpg"
+                  alt="House of Shadows — image 3" data-caption="House of Shadows, 2023"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144035_793.jpg"
+                  alt="House of Shadows — image 1" data-caption="House of Shadows, 2023"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144035_980.jpg"
+                  alt="House of Shadows — image 2" data-caption="House of Shadows, 2023"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144036_155.jpg"
+                  alt="House of Shadows — image 3" data-caption="House of Shadows, 2023"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144036_164.jpg"
+                  alt="House of Shadows — image 3" data-caption="House of Shadows, 2023"></div>
+            </div>
+            <button class="slider-arrow prev" aria-label="Previous image">‹</button>
+            <button class="slider-arrow next" aria-label="Next image">›</button>
+            <div class="slider-dots"></div>
+          </div>
+          <div class="project-meta">
+            <span class="project-number">01</span>
+            <span class="project-year">2026<br><span class="project-cat">dental clinic - kosar st</span></span>
+          </div>
+          <h3 class="project-title">dental clinic</h3>
+          <p class="project-location">Karaj, Iran</p>
+        </article>
+
+        <!-- Project 02 -->
+        <article class="project" data-project="02">
+          <div class="project-slider" data-slider>
+            <div class="slider-track">
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_143921_081.jpg"
+                  alt="Vertical Void — image 1" data-caption="Vertical Void, 2022"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_143920_627.jpg"
+                  alt="Vertical Void — image 2" data-caption="Vertical Void, 2022"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_143921_278.jpg"
+                  alt="Vertical Void — image 3" data-caption="Vertical Void, 2022"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144050_891.jpg"
+                  alt="Vertical Void — image 1" data-caption="Vertical Void, 2022"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144051_055.jpg"
+                  alt="Vertical Void — image 2" data-caption="Vertical Void, 2022"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144051_131.jpg"
+                  alt="Vertical Void — image 3" data-caption="Vertical Void, 2022"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144050_470.jpg"
+                  alt="Vertical Void — image 3" data-caption="Vertical Void, 2022"></div>
+            </div>
+            <button class="slider-arrow prev" aria-label="Previous image">‹</button>
+            <button class="slider-arrow next" aria-label="Next image">›</button>
+            <div class="slider-dots"></div>
+          </div>
+          <div class="project-meta">
+            <span class="project-number">02</span>
+            <span class="project-year">2025<br><span class="project-cat">Bozorgmehr 19 project</span></span>
+          </div>
+          <h3 class="project-t
+
+itle">sajjad blvd</h3>
+          <p class="project-location">Mashhad, Iran</p>
+        </article>
+
+        <!-- Project 03 -->
+        <article class="project" data-project="03">
+          <div class="project-slider" data-slider>
+            <div class="slider-track">
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144546_943.jpg"
+                  alt="White Threshold — image 1" data-caption="White Threshold, 2022"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144551_618.jpg"
+                  alt="White Threshold — image 2" data-caption="White Threshold, 2022"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144551_633.jpg"
+                  alt="White Threshold — image 3" data-caption="White Threshold, 2022"></div>
+                   <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144551_696.jpg"
+                  alt="White Threshold — image 1" data-caption="White Threshold, 2022"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144551_750.jpg"
+                  alt="White Threshold — image 2" data-caption="White Threshold, 2022"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144552_108.jpg"
+                  alt="White Threshold — image 3" data-caption="White Threshold, 2022"></div>
+                     <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144556_080.jpg"
+                  alt="White Threshold — image 2" data-caption="White Threshold, 2022"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144556_182.jpg"
+                  alt="White Threshold — image 3" data-caption="White Threshold, 2022"></div>
+                   <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144556_293.jpg"
+                  alt="White Threshold — image 1" data-caption="White Threshold, 2022"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144556_308.jpg"
+                  alt="White Threshold — image 2" data-caption="White Threshold, 2022"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144556_529.jpg"
+                  alt="White Threshold — image 3" data-caption="White Threshold, 2022"></div>
+            </div>
+            <button class="slider-arrow prev" aria-label="Previous image">‹</button>
+            <button class="slider-arrow next" aria-label="Next image">›</button>
+            <div class="slider-dots"></div>
+          </div>
+          <div class="project-meta">
+            <span class="project-number">03</span>
+            <span class="project-year">2026<br><span class="project-cat">shandiz project</span></span>
+          </div>
+          <h3 class="project-title">swiss-style cabin</h3>
+          <p class="project-location">shandiz, Iran</p>
+        </article>
+
+        <!-- Project 04 -->
+        <article class="project" data-project="04">
+          <div class="project-slider" data-slider>
+            <div class="slider-track">
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144556_080.jpg"
+                  alt="Spiral Atrium — image 1" data-caption="Spiral Atrium, 2021"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144050_891.jpg"
+                  alt="Spiral Atrium — image 2" data-caption="Spiral Atrium, 2021"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_143921_278.jpg"
+                  alt="Spiral Atrium — image 3" data-caption="Spiral Atrium, 2021"></div>
+            </div>
+            <button class="slider-arrow prev" aria-label="Previous image">‹</button>
+            <button class="slider-arrow next" aria-label="Next image">›</button>
+            <div class="slider-dots"></div>
+          </div>
+          <div class="project-meta">
+            <span class="project-number">04</span>
+            <span class="project-year">2025-26<br><span class="project-cat">projects-pics</span></span>
+          </div>
+          <h3 class="project-title">projects</h3>
+          <p class="project-location">Mashhad, Iran</p>
+        </article>
+
+        <!-- Project 05 -->
+        <article class="project" data-project="05">
+          <div class="project-slider" data-slider>
+            <div class="slider-track">
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144556_308.jpg"
+                  alt="Light House — image 1" data-caption="Light House, 2021"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144551_633.jpg"
+                  alt="Light House — image 2" data-caption="Light House, 2021"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144050_891.jpg"
+                  alt="Light House — image 3" data-caption="Light House, 2021"></div>
+            </div>
+            <button class="slider-arrow prev" aria-label="Previous image">‹</button>
+            <button class="slider-arrow next" aria-label="Next image">›</button>
+            <div class="slider-dots"></div>
+          </div>
+          <div class="project-meta">
+            <span class="project-number">05</span>
+            <span class="project-year">2021<br><span class="project-cat">project-pics</span></span>
+          </div>
+          <h3 class="project-title">project-pics</h3>
+          <p class="project-location">Mashhad, Iran</p>
+        </article>
+
+        <!-- Project 06 -->
+        <article class="project" data-project="06">
+          <div class="project-slider" data-slider>
+            <div class="slider-track">
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144050_891.jpg"
+                  alt="Stone Pavilion — image 1" data-caption="Stone Pavilion, 2020"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144036_164.jpg"
+                  alt="Stone Pavilion — image 2" data-caption="Stone Pavilion, 2020"></div>
+              <div class="slide lightbox-item"><img src="./assets/IMG_20260816_144035_793.jpg"
+                  alt="Stone Pavilion — image 3" data-caption="Stone Pavilion, 2020"></div>
+            </div>
+            <button class="slider-arrow prev" aria-label="Previous image">‹</button>
+            <button class="slider-arro
+
+w next" aria-label="Next image">›</button>
+            <div class="slider-dots"></div>
+          </div>
+          <div class="project-meta">
+            <span class="project-number">06</span>
+            <span class="project-year">2025-26<br><span class="project-cat">project-pics</span></span>
+          </div>
+          <h3 class="project-title">project-pics</h3>
+          <p class="project-location">Mashhad, Iran</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== STUDIO IMAGES ===== -->
+    <section class="studio-section" id="studio">
+      <p class="eyebrow">projects-pics</p>
+      <div class="studio-grid">
+        <div class="studio-item lightbox-item"><img src="./assets/IMG_20260816_144036_155.jpg" alt="Studio image 1"
+            data-caption="Studio Images"></div>
+        <div class="studio-item lightbox-item"><img src="./assets/IMG_20260816_144050_470.jpg" alt="Studio image 2"
+            data-caption="Studio Images"></div>
+        <div class="studio-item lightbox-item"><img src="./assets/IMG_20260816_144546_943.jpg" alt="Studio image 3"
+            data-caption="Studio Images"></div>
+        <div class="studio-item lightbox-item"><img src="./assets/IMG_20260816_144050_891.jpg" alt="Studio image 4"
+            data-caption="Studio Images"></div>
+        <div class="studio-item lightbox-item"><img src="./assets/IMG_20260816_144551_618.jpg" alt="Studio image 5"
+            data-caption="Studio Images"></div>
+        <div class="studio-item lightbox-item"><img src="./assets/IMG_20260816_144036_164.jpg" alt="Studio image 6"
+            data-caption="Studio Images"></div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about-section" id="about">
+      <figure class="about-image lightbox-item">
+        <img src="./assets/IMG_20260816_143921_278.jpg">
+      </figure>
+
+      <p class="eyebrow">About</p>
+      <h2 class="about-title">Alireza<br><em>izadi</em></h2>
+
+      <p class="about-text">Alireza izadi is a mashhad-based architect with over five years of practice in residential,
+        cultural, and public space design. His work is guided by an enduring curiosity about how materials hold silence
+        and how buildings might age with dignity.</p>
+
+      <p class="about-text">He studied architecture at the University of eghbal and completed a postgraduate fellowship
+        at the Architectural Association in London. Since returning to Iran in 2010, he has led projects across ten
+        cities, consistently prioritizing craft over spectacle.</p>
+
+      <p class="about-text">His practice operates with a small team, keeping every decision close to the hand and eye of
+        its makers.</p>
+
+      <div class="about-stats">
+        <div class="stat">
+          <span class="stat-number">2010</span>
+          <span class="stat-label">Founded</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">47+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">12</span>
+          <span class="stat-label">Cities</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact-section" id="contact">
+      <h2 class="contact-title">Let's build<br><em>something together.</em></h2>
+
+      <div class="contact-rows">
+        <div class="contact-row">
+          <p class="eyebrow">Email</p>
+          <a href="mailto:studio@arashsadeghi.com" class="contact-value">studio@gmail.com</a>
+        </div>
+        <div class="contact-row">
+          <p class="eyebrow">Studio</p>
+          <p class="contact-value">Mashhad, Iran </p>
+        </div>
+        <div class="contact-row">
+          <p class="eyebrow">Inquiries</p>
+          <p class="contact-value small">Available for new commissions in residential, cultural, and public space
+            categories.</p>
+        </div>
+      </div>
+
+      <footer class="site-footer">
+        <p>©️ alireza izadi</p>
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Dezeen</a>
+        </div>
+      </footer>
+    </section>
+
+  </main>
+
+  <!-- ===== LIGHTBOX ===== -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">×</button>
+    <button class="lightbox-arrow lightbox-prev" id="lightboxPrev" aria-label="Previous image">‹</button>
+    <div class="lightbox-stage">
+      <img src="./assets/IMG_20260816_144035_503.jpg" alt="" id="
+
+lightboxImage">
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+      <p class="lightbox-counter" id="lightboxCounter"></p>
+    </div>
+    <button class="lightbox-arrow lightbox-next" id="lightboxNext" aria-label="Next image">›</button>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
